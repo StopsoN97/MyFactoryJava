@@ -1,5 +1,7 @@
 package types;
 
+import interfaces.IAnimal;
+
 
 public class Cow implements IAnimal{
     

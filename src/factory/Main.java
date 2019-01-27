@@ -1,10 +1,15 @@
 package factory;
 
+import interfaces.IAnimal;
+import types.AnimalFactory;
+import types.Animals;
+
 
 public class Main {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        IAnimal animal = AnimalFactory.CreateAnimalObject(Animals.Dog);
+        animal.MakeSound();
+        
     }
-    
 }
