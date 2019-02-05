@@ -1,6 +1,7 @@
 package types;
 
-
 public enum Animals {
-    Dog, Cat, Cow;
+    DOG,
+    CAT,
+    COW
 }
